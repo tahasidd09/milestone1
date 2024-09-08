@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Interactive Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Resume</h1>
+    </header>
+    <main>
+        <section id="personal-info">
+            <h2>Personal Information</h2>
+            <img src="my pic.jpg" alt="Profile Picture">
+            
+            <ul>
+                <li><strong>Name:</strong> Muhammad Taha Anis Siddiqui</li>
+                <li><strong>Contact Details:</strong> <a href="siddiquit794@gmail.com">siddiquit794@gmail.com</a>, 03171217805</li>
+            </ul>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Inter in pre-Engineering</strong>, Formen collage</li>
+                <li><strong>Web development leaning </strong>, Youtube</li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <button id="Hide-skills">Click</button>
+            <ul id="skills-list"></ul>
+                <li>HTML/CSS</li>
+                <li>TypeScript</li>
+                <li>JavaScript</li>
+            </ul>
+           
+        </section>
+        
+        <section id="work-experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <strong>I want to become a Software Engineer</strong>
+                <strong>Koi internship dene ko tyar hi nhi ha</strong>,
+            </ul>
+        </section>
+    </main>
+    <script src="script.ts"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark/Light Mode Toggle</title>
+  <style>
+    
+  </style>
+</head>
+<body>
+
+  <button class="toggle-button" onclick="toggleMode()">Toggle</button>
+
+  <script>
+    function toggleMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+
+</body>
+</html>

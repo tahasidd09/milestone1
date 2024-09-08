@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+
+img {
+    width: 20%;
+    border-radius: 10%;
+}
+header {
+    background-color: #574545;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: right side;
+}
+
+section {
+    background-color: #614646;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 20;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #aac9ab;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #87a188;
+}
+
+#skills-list {
+    display: none;
+}
+
+#toggle-skills:checked + #skills-list {
+    display: block;
+}
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: white;
+    color: black;
+  }
+
+  .dark-mode {
+    background-color: #121212;
+    color: white;
+  }
+
+  .toggle-button {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
